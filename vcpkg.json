@@ -7,5 +7,9 @@
     "Vito Gamberini <vito@gamberini.email>"
   ],
   "license": "CC0-1.0",
-  "dependencies": []
+  "dependencies": [
+    "catch2",
+    "nyu-cmake",
+    "nyu-util"
+  ]
 }

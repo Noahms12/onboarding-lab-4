@@ -1,7 +1,10 @@
 {
   "default-registry": {
     "kind": "git",
-    "baseline": "0ba60bfef5dea4cb2599daa7ad8364e309835a68",
+    "baseline": "83a1b8ad4f7be3bf2e16d4397f58e6119e001ef6",
     "repository": "https://github.com/microsoft/vcpkg.git"
+    "packages": [
+        "nyu-*"
+      ]
   }
 }
