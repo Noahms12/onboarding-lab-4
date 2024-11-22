@@ -1,0 +1,14 @@
+Package: vcpkg-cmake-config
+Version: 2024-05-23
+Architecture: x64-osx
+Multi-Arch: same
+Abi: 6645a1069990c56613eb2074591dcd3c90d2b566b81f13fad579f3eae658722c
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2024-04-23
+Architecture: x64-osx
+Multi-Arch: same
+Abi: a6d3f22b60b9a1222d6f96373ed5ed3f6b1f6c1af06d67ff75e138c0c8dd2214
+Status: install ok installed
+

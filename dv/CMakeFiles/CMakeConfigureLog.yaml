@@ -1,0 +1,1512 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      The system is: Darwin - 23.6.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/3.31.0/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/3.31.0/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:23 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-mV0NhF"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-mV0NhF"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-mV0NhF'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d2a6f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d2a6f.dir/build.make CMakeFiles/cmTC_d2a6f.dir/build
+        Building C object CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: x86_64-apple-darwin23.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-mV0NhF -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-mV0NhF -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_d2a6f
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2a6f.dir/link.txt --verbose=1
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: x86_64-apple-darwin23.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_d2a6f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 15:44:24 Feb  3 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        /Library/Developer/CommandLineTools/usr/bin/cc  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o -o cmTC_d2a6f
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "x86_64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-mV0NhF']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d2a6f/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d2a6f.dir/build.make CMakeFiles/cmTC_d2a6f.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: x86_64-apple-darwin23.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-mV0NhF -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-mV0NhF -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o -x c /usr/local/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_d2a6f]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2a6f.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: x86_64-apple-darwin23.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_d2a6f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [14.4] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d2a6f] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_d2a6f.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      Running the C compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1053.12
+      BUILD 15:44:24 Feb  3 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:23 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-YNHGPV"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-YNHGPV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-YNHGPV'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8f7d3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8f7d3.dir/build.make CMakeFiles/cmTC_8f7d3.dir/build
+        Building CXX object CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl,-v -MD -MT CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: x86_64-apple-darwin23.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-YNHGPV -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-YNHGPV -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_8f7d3
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f7d3.dir/link.txt --verbose=1
+        Apple clang version 15.0.0 (clang-1500.3.9.4)
+        Target: x86_64-apple-darwin23.6.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_8f7d3 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1053.12
+        BUILD 15:44:24 Feb  3 2024
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+        Library search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8f7d3
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:113 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "x86_64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+          add: [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include] ==> [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/usr/include] ==> [/Library/Developer/CommandLineTools/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1;/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include;/Library/Developer/CommandLineTools/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-YNHGPV']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8f7d3/fast]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8f7d3.dir/build.make CMakeFiles/cmTC_8f7d3.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -v -Wl -v -MD -MT CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: x86_64-apple-darwin23.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.4 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -debugger-tuning=lldb -target-linker-version 1053.12 -v -fcoverage-compilation-dir=/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-YNHGPV -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-YNHGPV -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 15.0.0 (clang-1500.3.9.4) default target x86_64-apple-darwin23.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_8f7d3]
+        ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f7d3.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.3.9.4)]
+        ignore line: [Target: x86_64-apple-darwin23.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.4 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -o cmTC_8f7d3 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+          arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Library/Developer/CommandLineTools/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [x86_64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [14.4] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8f7d3] ==> ignore
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_8f7d3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Library/Developer/CommandLineTools/usr/bin/ld
+        Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/local/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:23 (project)"
+    message: |
+      Running the CXX compiler's linker: "/Library/Developer/CommandLineTools/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1053.12
+      BUILD 15:44:24 Feb  3 2024
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+      will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.3.2.2)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _faligned_new"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-VCR3UG"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-VCR3UG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_faligned_new"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-VCR3UG'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1fb9e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1fb9e.dir/build.make CMakeFiles/cmTC_1fb9e.dir/build
+        Building CXX object CMakeFiles/cmTC_1fb9e.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_faligned_new  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -faligned-new -MD -MT CMakeFiles/cmTC_1fb9e.dir/src.cxx.o -MF CMakeFiles/cmTC_1fb9e.dir/src.cxx.o.d -o CMakeFiles/cmTC_1fb9e.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-VCR3UG/src.cxx
+        Linking CXX executable cmTC_1fb9e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fb9e.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1fb9e.dir/src.cxx.o -o cmTC_1fb9e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _fbracket_depth_4096"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-oN621d"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-oN621d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_fbracket_depth_4096"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-oN621d'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_95946/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_95946.dir/build.make CMakeFiles/cmTC_95946.dir/build
+        Building CXX object CMakeFiles/cmTC_95946.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_fbracket_depth_4096  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -fbracket-depth=4096 -MD -MT CMakeFiles/cmTC_95946.dir/src.cxx.o -MF CMakeFiles/cmTC_95946.dir/src.cxx.o.d -o CMakeFiles/cmTC_95946.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-oN621d/src.cxx
+        Linking CXX executable cmTC_95946
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95946.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_95946.dir/src.cxx.o -o cmTC_95946
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _fcf_protection_none"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-lh6i5A"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-lh6i5A"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_fcf_protection_none"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-lh6i5A'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5aa0d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5aa0d.dir/build.make CMakeFiles/cmTC_5aa0d.dir/build
+        Building CXX object CMakeFiles/cmTC_5aa0d.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_fcf_protection_none  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -fcf-protection=none -MD -MT CMakeFiles/cmTC_5aa0d.dir/src.cxx.o -MF CMakeFiles/cmTC_5aa0d.dir/src.cxx.o.d -o CMakeFiles/cmTC_5aa0d.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-lh6i5A/src.cxx
+        Linking CXX executable cmTC_5aa0d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aa0d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5aa0d.dir/src.cxx.o -o cmTC_5aa0d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _mno_cet"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-bkaMtz"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-bkaMtz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_mno_cet"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-bkaMtz'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5647f/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5647f.dir/build.make CMakeFiles/cmTC_5647f.dir/build
+        Building CXX object CMakeFiles/cmTC_5647f.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_mno_cet  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -mno-cet -MD -MT CMakeFiles/cmTC_5647f.dir/src.cxx.o -MF CMakeFiles/cmTC_5647f.dir/src.cxx.o.d -o CMakeFiles/cmTC_5647f.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-bkaMtz/src.cxx
+        clang: error: unknown argument: '-mno-cet'
+        make[1]: *** [CMakeFiles/cmTC_5647f.dir/src.cxx.o] Error 1
+        make: *** [cmTC_5647f/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Qunused_arguments"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-ujTuxZ"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-ujTuxZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Qunused_arguments"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-ujTuxZ'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e29e3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e29e3.dir/build.make CMakeFiles/cmTC_e29e3.dir/build
+        Building CXX object CMakeFiles/cmTC_e29e3.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Qunused_arguments  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Qunused-arguments -MD -MT CMakeFiles/cmTC_e29e3.dir/src.cxx.o -MF CMakeFiles/cmTC_e29e3.dir/src.cxx.o.d -o CMakeFiles/cmTC_e29e3.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-ujTuxZ/src.cxx
+        Linking CXX executable cmTC_e29e3
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e29e3.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e29e3.dir/src.cxx.o -o cmTC_e29e3
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_bool_operation"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-2mMCCH"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-2mMCCH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_bool_operation"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-2mMCCH'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5008b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5008b.dir/build.make CMakeFiles/cmTC_5008b.dir/build
+        Building CXX object CMakeFiles/cmTC_5008b.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_bool_operation  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-bool-operation -MD -MT CMakeFiles/cmTC_5008b.dir/src.cxx.o -MF CMakeFiles/cmTC_5008b.dir/src.cxx.o.d -o CMakeFiles/cmTC_5008b.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-2mMCCH/src.cxx
+        Linking CXX executable cmTC_5008b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5008b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5008b.dir/src.cxx.o -o cmTC_5008b
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_c__11_narrowing"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-dqzcnh"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-dqzcnh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_c__11_narrowing"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-dqzcnh'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5c59a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5c59a.dir/build.make CMakeFiles/cmTC_5c59a.dir/build
+        Building CXX object CMakeFiles/cmTC_5c59a.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_c__11_narrowing  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-c++11-narrowing -MD -MT CMakeFiles/cmTC_5c59a.dir/src.cxx.o -MF CMakeFiles/cmTC_5c59a.dir/src.cxx.o.d -o CMakeFiles/cmTC_5c59a.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-dqzcnh/src.cxx
+        Linking CXX executable cmTC_5c59a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c59a.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5c59a.dir/src.cxx.o -o cmTC_5c59a
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_constant_logical_operand"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-1pv32B"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-1pv32B"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_constant_logical_operand"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-1pv32B'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fe492/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fe492.dir/build.make CMakeFiles/cmTC_fe492.dir/build
+        Building CXX object CMakeFiles/cmTC_fe492.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_constant_logical_operand  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-constant-logical-operand -MD -MT CMakeFiles/cmTC_fe492.dir/src.cxx.o -MF CMakeFiles/cmTC_fe492.dir/src.cxx.o.d -o CMakeFiles/cmTC_fe492.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-1pv32B/src.cxx
+        Linking CXX executable cmTC_fe492
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe492.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fe492.dir/src.cxx.o -o cmTC_fe492
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_non_pod_varargs"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-ZwypvI"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-ZwypvI"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_non_pod_varargs"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-ZwypvI'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_21e24/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_21e24.dir/build.make CMakeFiles/cmTC_21e24.dir/build
+        Building CXX object CMakeFiles/cmTC_21e24.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_non_pod_varargs  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-non-pod-varargs -MD -MT CMakeFiles/cmTC_21e24.dir/src.cxx.o -MF CMakeFiles/cmTC_21e24.dir/src.cxx.o.d -o CMakeFiles/cmTC_21e24.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-ZwypvI/src.cxx
+        Linking CXX executable cmTC_21e24
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21e24.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_21e24.dir/src.cxx.o -o cmTC_21e24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_parentheses_equality"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-FduyZU"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-FduyZU"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_parentheses_equality"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-FduyZU'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_85ac2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_85ac2.dir/build.make CMakeFiles/cmTC_85ac2.dir/build
+        Building CXX object CMakeFiles/cmTC_85ac2.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_parentheses_equality  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-parentheses-equality -MD -MT CMakeFiles/cmTC_85ac2.dir/src.cxx.o -MF CMakeFiles/cmTC_85ac2.dir/src.cxx.o.d -o CMakeFiles/cmTC_85ac2.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-FduyZU/src.cxx
+        Linking CXX executable cmTC_85ac2
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85ac2.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_85ac2.dir/src.cxx.o -o cmTC_85ac2
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_shadow"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-im3kzM"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-im3kzM"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_shadow"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-im3kzM'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c6565/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c6565.dir/build.make CMakeFiles/cmTC_c6565.dir/build
+        Building CXX object CMakeFiles/cmTC_c6565.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_shadow  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-shadow -MD -MT CMakeFiles/cmTC_c6565.dir/src.cxx.o -MF CMakeFiles/cmTC_c6565.dir/src.cxx.o.d -o CMakeFiles/cmTC_c6565.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-im3kzM/src.cxx
+        Linking CXX executable cmTC_c6565
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6565.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c6565.dir/src.cxx.o -o cmTC_c6565
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_sign_compare"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-EOF7ER"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-EOF7ER"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_sign_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-EOF7ER'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_28b4a/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_28b4a.dir/build.make CMakeFiles/cmTC_28b4a.dir/build
+        Building CXX object CMakeFiles/cmTC_28b4a.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_sign_compare  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-sign-compare -MD -MT CMakeFiles/cmTC_28b4a.dir/src.cxx.o -MF CMakeFiles/cmTC_28b4a.dir/src.cxx.o.d -o CMakeFiles/cmTC_28b4a.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-EOF7ER/src.cxx
+        Linking CXX executable cmTC_28b4a
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28b4a.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_28b4a.dir/src.cxx.o -o cmTC_28b4a
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_tautological_bitwise_compare"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-zthBkz"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-zthBkz"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_tautological_bitwise_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-zthBkz'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7296d/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_7296d.dir/build.make CMakeFiles/cmTC_7296d.dir/build
+        Building CXX object CMakeFiles/cmTC_7296d.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_tautological_bitwise_compare  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-tautological-bitwise-compare -MD -MT CMakeFiles/cmTC_7296d.dir/src.cxx.o -MF CMakeFiles/cmTC_7296d.dir/src.cxx.o.d -o CMakeFiles/cmTC_7296d.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-zthBkz/src.cxx
+        Linking CXX executable cmTC_7296d
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7296d.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_7296d.dir/src.cxx.o -o cmTC_7296d
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_tautological_compare"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-PqlGLm"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-PqlGLm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_tautological_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-PqlGLm'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_652c2/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_652c2.dir/build.make CMakeFiles/cmTC_652c2.dir/build
+        Building CXX object CMakeFiles/cmTC_652c2.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_tautological_compare  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-tautological-compare -MD -MT CMakeFiles/cmTC_652c2.dir/src.cxx.o -MF CMakeFiles/cmTC_652c2.dir/src.cxx.o.d -o CMakeFiles/cmTC_652c2.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-PqlGLm/src.cxx
+        Linking CXX executable cmTC_652c2
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_652c2.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_652c2.dir/src.cxx.o -o cmTC_652c2
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_uninitialized"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-eBVXIV"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-eBVXIV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_uninitialized"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-eBVXIV'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_61d32/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_61d32.dir/build.make CMakeFiles/cmTC_61d32.dir/build
+        Building CXX object CMakeFiles/cmTC_61d32.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_uninitialized  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-uninitialized -MD -MT CMakeFiles/cmTC_61d32.dir/src.cxx.o -MF CMakeFiles/cmTC_61d32.dir/src.cxx.o.d -o CMakeFiles/cmTC_61d32.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-eBVXIV/src.cxx
+        Linking CXX executable cmTC_61d32
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61d32.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_61d32.dir/src.cxx.o -o cmTC_61d32
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_but_set_parameter"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-SIuIEh"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-SIuIEh"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_unused_but_set_parameter"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-SIuIEh'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fdc7e/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_fdc7e.dir/build.make CMakeFiles/cmTC_fdc7e.dir/build
+        Building CXX object CMakeFiles/cmTC_fdc7e.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_unused_but_set_parameter  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-unused-but-set-parameter -MD -MT CMakeFiles/cmTC_fdc7e.dir/src.cxx.o -MF CMakeFiles/cmTC_fdc7e.dir/src.cxx.o.d -o CMakeFiles/cmTC_fdc7e.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-SIuIEh/src.cxx
+        Linking CXX executable cmTC_fdc7e
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdc7e.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fdc7e.dir/src.cxx.o -o cmTC_fdc7e
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_but_set_variable"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-SYSrK3"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-SYSrK3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_unused_but_set_variable"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-SYSrK3'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d2631/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d2631.dir/build.make CMakeFiles/cmTC_d2631.dir/build
+        Building CXX object CMakeFiles/cmTC_d2631.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_unused_but_set_variable  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-unused-but-set-variable -MD -MT CMakeFiles/cmTC_d2631.dir/src.cxx.o -MF CMakeFiles/cmTC_d2631.dir/src.cxx.o.d -o CMakeFiles/cmTC_d2631.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-SYSrK3/src.cxx
+        Linking CXX executable cmTC_d2631
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2631.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d2631.dir/src.cxx.o -o cmTC_d2631
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_parameter"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-cEmIEe"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-cEmIEe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_unused_parameter"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-cEmIEe'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_628f5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_628f5.dir/build.make CMakeFiles/cmTC_628f5.dir/build
+        Building CXX object CMakeFiles/cmTC_628f5.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_unused_parameter  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-unused-parameter -MD -MT CMakeFiles/cmTC_628f5.dir/src.cxx.o -MF CMakeFiles/cmTC_628f5.dir/src.cxx.o.d -o CMakeFiles/cmTC_628f5.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-cEmIEe/src.cxx
+        Linking CXX executable cmTC_628f5
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_628f5.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_628f5.dir/src.cxx.o -o cmTC_628f5
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_variable"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-YkMG5P"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-YkMG5P"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_Wno_unused_variable"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-YkMG5P'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5561b/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5561b.dir/build.make CMakeFiles/cmTC_5561b.dir/build
+        Building CXX object CMakeFiles/cmTC_5561b.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_Wno_unused_variable  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -Wno-unused-variable -MD -MT CMakeFiles/cmTC_5561b.dir/src.cxx.o -MF CMakeFiles/cmTC_5561b.dir/src.cxx.o.d -o CMakeFiles/cmTC_5561b.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-YkMG5P/src.cxx
+        Linking CXX executable cmTC_5561b
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5561b.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5561b.dir/src.cxx.o -o cmTC_5561b
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "/usr/local/share/verilator/verilator-config.cmake:65 (check_cxx_compiler_flag)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _std_gnu__17"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-BfMfNq"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-BfMfNq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_std_gnu__17"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-BfMfNq'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_04757/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_04757.dir/build.make CMakeFiles/cmTC_04757.dir/build
+        Building CXX object CMakeFiles/cmTC_04757.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_std_gnu__17  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk   -std=gnu++17 -MD -MT CMakeFiles/cmTC_04757.dir/src.cxx.o -MF CMakeFiles/cmTC_04757.dir/src.cxx.o.d -o CMakeFiles/cmTC_04757.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-BfMfNq/src.cxx
+        Linking CXX executable cmTC_04757
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04757.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_04757.dir/src.cxx.o -o cmTC_04757
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/local/share/verilator/verilator-config.cmake:55 (check_cxx_source_compiles)"
+      - "/usr/local/share/verilator/verilator-config.cmake:72 (_verilator_check_cxx_libraries)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _mt"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-HkXebT"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-HkXebT"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_mt"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-HkXebT'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1ca33/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1ca33.dir/build.make CMakeFiles/cmTC_1ca33.dir/build
+        Building CXX object CMakeFiles/cmTC_1ca33.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_mt  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_1ca33.dir/src.cxx.o -MF CMakeFiles/cmTC_1ca33.dir/src.cxx.o.d -o CMakeFiles/cmTC_1ca33.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-HkXebT/src.cxx
+        Linking CXX executable cmTC_1ca33
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ca33.dir/link.txt --verbose=1
+        clang: error: unknown argument: '-mt'
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_1ca33.dir/src.cxx.o -o cmTC_1ca33  -mt
+        make[1]: *** [cmTC_1ca33] Error 1
+        make: *** [cmTC_1ca33/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/local/share/verilator/verilator-config.cmake:55 (check_cxx_source_compiles)"
+      - "/usr/local/share/verilator/verilator-config.cmake:72 (_verilator_check_cxx_libraries)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _pthread"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-z3rmvk"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-z3rmvk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_pthread"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-z3rmvk'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_54161/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_54161.dir/build.make CMakeFiles/cmTC_54161.dir/build
+        Building CXX object CMakeFiles/cmTC_54161.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_pthread  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_54161.dir/src.cxx.o -MF CMakeFiles/cmTC_54161.dir/src.cxx.o.d -o CMakeFiles/cmTC_54161.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-z3rmvk/src.cxx
+        Linking CXX executable cmTC_54161
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54161.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_54161.dir/src.cxx.o -o cmTC_54161  -pthread
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/local/share/verilator/verilator-config.cmake:55 (check_cxx_source_compiles)"
+      - "/usr/local/share/verilator/verilator-config.cmake:72 (_verilator_check_cxx_libraries)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _lpthread"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-lVZ8cc"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-lVZ8cc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_lpthread"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-lVZ8cc'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_537e3/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_537e3.dir/build.make CMakeFiles/cmTC_537e3.dir/build
+        Building CXX object CMakeFiles/cmTC_537e3.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_lpthread  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_537e3.dir/src.cxx.o -MF CMakeFiles/cmTC_537e3.dir/src.cxx.o.d -o CMakeFiles/cmTC_537e3.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-lVZ8cc/src.cxx
+        Linking CXX executable cmTC_537e3
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_537e3.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_537e3.dir/src.cxx.o -o cmTC_537e3  -lpthread
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/local/share/cmake/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/local/share/verilator/verilator-config.cmake:55 (check_cxx_source_compiles)"
+      - "/usr/local/share/verilator/verilator-config.cmake:72 (_verilator_check_cxx_libraries)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-verilog.cmake:138 (find_package)"
+      - "dv/vcpkg_installed/x64-osx/share/nyu-cmake/nyu-cmake-config.cmake:1 (include)"
+      - "dv/_deps/vcpkg-src/scripts/buildsystems/vcpkg.cmake:859 (_find_package)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test _latomic"
+    directories:
+      source: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-xOIv4I"
+      binary: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-xOIv4I"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk"
+      VCPKG_INSTALLED_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/vcpkg_installed"
+      VCPKG_PREFER_SYSTEM_LIBS: "OFF"
+      VCPKG_TARGET_TRIPLET: "x64-osx"
+      Z_VCPKG_ROOT_DIR: "/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src"
+    buildResult:
+      variable: "_latomic"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-xOIv4I'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e97a5/fast
+        /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e97a5.dir/build.make CMakeFiles/cmTC_e97a5.dir/build
+        Building CXX object CMakeFiles/cmTC_e97a5.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -D_latomic  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -MD -MT CMakeFiles/cmTC_e97a5.dir/src.cxx.o -MF CMakeFiles/cmTC_e97a5.dir/src.cxx.o.d -o CMakeFiles/cmTC_e97a5.dir/src.cxx.o -c /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/CMakeScratch/TryCompile-xOIv4I/src.cxx
+        Linking CXX executable cmTC_e97a5
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e97a5.dir/link.txt --verbose=1
+        ld: library 'atomic' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        /Library/Developer/CommandLineTools/usr/bin/c++  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e97a5.dir/src.cxx.o -o cmTC_e97a5  -latomic
+        make[1]: *** [cmTC_e97a5] Error 1
+        make: *** [cmTC_e97a5/fast] Error 2
+        
+      exitCode: 2
+...

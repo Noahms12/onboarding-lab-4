@@ -1,0 +1,89 @@
+Detecting compiler hash for triplet x64-osx...
+Compiler found: /Library/Developer/CommandLineTools/usr/bin/c++
+The following packages will be built and installed:
+    catch2:x64-osx@3.7.1 -- /Users/noahmays-smith/.cache/vcpkg/registries/git-trees/6f03dab61d096d616b0c745d442d406e525f4b7f
+    nyu-cmake:x64-osx@1.2.0 -- /Users/noahmays-smith/.cache/vcpkg/registries/git-trees/e925c7803da3ba621c027abf817f3aaa15e38f53
+    nyu-util:x64-osx@1.3.0 -- /Users/noahmays-smith/.cache/vcpkg/registries/git-trees/bc8d9949439d24d78953ad7314c366905cd09fa5
+Restored 0 package(s) from /Users/noahmays-smith/.cache/vcpkg/archives in 46.7 us. Use --debug to see more details.
+Installing 1/3 catch2:x64-osx@3.7.1...
+Building catch2:x64-osx@3.7.1...
+/Users/noahmays-smith/.cache/vcpkg/registries/git-trees/6f03dab61d096d616b0c745d442d406e525f4b7f: info: installing overlay port from here
+-- Using cached catchorg-Catch2-v3.7.1.tar.gz.
+-- Cleaning sources at /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/buildtrees/catch2/src/v3.7.1-253f17e323.clean. Use --editable to skip cleaning for the packages you specify.
+-- Extracting source /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/downloads/catchorg-Catch2-v3.7.1.tar.gz
+-- Applying patch fix-install-path.patch
+-- Using source at /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/buildtrees/catch2/src/v3.7.1-253f17e323.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-osx
+-- Building x64-osx-dbg
+-- Building x64-osx-rel
+-- Fixing pkgconfig file: /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/packages/catch2_x64-osx/lib/pkgconfig/catch2-with-main.pc
+-- Fixing pkgconfig file: /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/packages/catch2_x64-osx/lib/pkgconfig/catch2.pc
+-- Fixing pkgconfig file: /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/packages/catch2_x64-osx/debug/lib/pkgconfig/catch2-with-main.pc
+-- Fixing pkgconfig file: /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/packages/catch2_x64-osx/debug/lib/pkgconfig/catch2.pc
+-- Installing: /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/packages/catch2_x64-osx/share/catch2/copyright
+-- Performing post-build validation
+Stored binaries in 1 destinations in 1.3 s.
+Elapsed time to handle catch2:x64-osx: 53 s
+catch2:x64-osx package ABI: a809ee5440ed3e54b8141c2d401ebdf0809f9add42ae92bb3272b1808eb24df3
+Installing 2/3 nyu-cmake:x64-osx@1.2.0...
+Building nyu-cmake:x64-osx@1.2.0...
+/Users/noahmays-smith/.cache/vcpkg/registries/git-trees/e925c7803da3ba621c027abf817f3aaa15e38f53: info: installing overlay port from here
+Downloading NYU-Processor-Design-nyu-cmake-7ddbf0c2ae6be450c191d640d77a458f68676666.tar.gz
+Successfully downloaded NYU-Processor-Design-nyu-cmake-7ddbf0c2ae6be450c191d640d77a458f68676666.tar.gz.
+-- Extracting source /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/downloads/NYU-Processor-Design-nyu-cmake-7ddbf0c2ae6be450c191d640d77a458f68676666.tar.gz
+-- Using source at /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/buildtrees/nyu-cmake/src/8f68676666-a718d72861.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-osx
+-- Building x64-osx-dbg
+-- Building x64-osx-rel
+-- Installing: /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/packages/nyu-cmake_x64-osx/share/nyu-cmake/copyright
+-- Installing: /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/packages/nyu-cmake_x64-osx/share/nyu-cmake/usage
+-- Performing post-build validation
+Stored binaries in 1 destinations in 13.5 ms.
+Elapsed time to handle nyu-cmake:x64-osx: 1.9 s
+nyu-cmake:x64-osx package ABI: e3376ff35cce082033f81f1c6ccab965ce9d64c734cbfab666f12f36972bbd05
+Installing 3/3 nyu-util:x64-osx@1.3.0...
+Building nyu-util:x64-osx@1.3.0...
+/Users/noahmays-smith/.cache/vcpkg/registries/git-trees/bc8d9949439d24d78953ad7314c366905cd09fa5: info: installing overlay port from here
+Downloading NYU-Processor-Design-nyu-util-be90f8942845c36d5f0d416a40721f30eabe0cc4.tar.gz
+Successfully downloaded NYU-Processor-Design-nyu-util-be90f8942845c36d5f0d416a40721f30eabe0cc4.tar.gz.
+-- Extracting source /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/downloads/NYU-Processor-Design-nyu-util-be90f8942845c36d5f0d416a40721f30eabe0cc4.tar.gz
+-- Using source at /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/buildtrees/nyu-util/src/30eabe0cc4-b2d159bc86.clean
+-- Found external ninja('1.12.1').
+-- Configuring x64-osx
+-- Building x64-osx-dbg
+-- Building x64-osx-rel
+-- Installing: /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/packages/nyu-util_x64-osx/share/nyu-util/copyright
+-- Installing: /Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-src/packages/nyu-util_x64-osx/share/nyu-util/usage
+-- Performing post-build validation
+Stored binaries in 1 destinations in 35.3 ms.
+Elapsed time to handle nyu-util:x64-osx: 11 s
+nyu-util:x64-osx package ABI: 508d52d7aa6e209621cd9a903005dbd2523a58c6e593f6adb966fdb313ddd3cf
+Total install time: 1.1 min
+catch2 provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(Catch2 CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE Catch2::Catch2 Catch2::Catch2WithMain)
+
+catch2 provides pkg-config modules:
+
+  # A modern, C++-native test framework for C++14 and above (links in default main)
+  catch2-with-main
+
+  # A modern, C++-native, test framework for C++14 and above
+  catch2
+
+nyu-cmake does not provide any targets, only functions
+
+    find_package(nyu-cmake CONFIG REQUIRED)
+
+    nyu_add_sv(target verilog.sv)
+    nyu_verilate(target)
+
+The package nyu-util provides CMake targets:
+
+    find_package(nyu-util CONFIG REQUIRED)
+    target_link_libraries(target PRIVATE nyu::covrecorder nyu::testutil)
+

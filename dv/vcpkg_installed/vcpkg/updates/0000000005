@@ -1,0 +1,9 @@
+Package: nyu-util
+Version: 1.3.0
+Depends: catch2, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-osx
+Multi-Arch: same
+Maintainer: Vito Gamberini <vito@gamberini.email>
+Abi: 508d52d7aa6e209621cd9a903005dbd2523a58c6e593f6adb966fdb313ddd3cf
+Description: NYU Processor Design's Utilities
+Status: install ok installed

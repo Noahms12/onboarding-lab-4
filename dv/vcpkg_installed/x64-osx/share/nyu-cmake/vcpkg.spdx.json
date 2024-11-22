@@ -1,0 +1,132 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/nyu-cmake-x64-osx-1.2.0-99bc6f13-fd89-4b02-844f-780c1b4b0566",
+  "name": "nyu-cmake:x64-osx@1.2.0 e3376ff35cce082033f81f1c6ccab965ce9d64c734cbfab666f12f36972bbd05",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-11-12-eb492805e92a2c14a230f5c3deb3e89f6771c321"
+    ],
+    "created": "2024-11-22T21:59:56Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-2"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-2",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "nyu-cmake",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.2.0",
+      "downloadLocation": "git+https://github.com/NYU-Processor-Design/nyu-registry.git@e925c7803da3ba621c027abf817f3aaa15e38f53",
+      "homepage": "https://github.com/NYU-Processor-Design/nyu-cmake",
+      "licenseConcluded": "CC0-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "NYU Processor Design's CMake function repo",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "nyu-cmake:x64-osx",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "e3376ff35cce082033f81f1c6ccab965ce9d64c734cbfab666f12f36972bbd05",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "CC0-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "NYU-Processor-Design/nyu-cmake",
+      "downloadLocation": "git+https://github.com/NYU-Processor-Design/nyu-cmake@7ddbf0c2ae6be450c191d640d77a458f68676666",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "7a24f53880ef99b6c4739b90d1106a2ca7241393054a9ab994efd9aa3d225b378a785100852ff953853058ec7ad17af92fa9f96a2d8a9623a913d7d016b4e1ea"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": ".//Users/noahmays-smith/.cache/vcpkg/registries/git-trees/e925c7803da3ba621c027abf817f3aaa15e38f53/usage",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "4c24f453fdb924dded3f59100a9de1c64050a89fc6254090705a36129b4d1813"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//Users/noahmays-smith/.cache/vcpkg/registries/git-trees/e925c7803da3ba621c027abf817f3aaa15e38f53/portfile.cmake",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b8dd9c2f86aa60117a724d0fbf04a69226754c06a35c54ea926cff01c2cd1dd5"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": ".//Users/noahmays-smith/.cache/vcpkg/registries/git-trees/e925c7803da3ba621c027abf817f3aaa15e38f53/vcpkg.json",
+      "SPDXID": "SPDXRef-file-2",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "cb668c06ef7392cbe7e1b4907a4e28365d0dc3fc00ab348cdd1236239f060036"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

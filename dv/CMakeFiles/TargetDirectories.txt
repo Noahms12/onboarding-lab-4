@@ -1,0 +1,11 @@
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/UpdateVcpkgBaseline.dir
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/test.dir
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/edit_cache.dir
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/CMakeFiles/rebuild_cache.dir
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/rtl/CMakeFiles/test.dir
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/rtl/CMakeFiles/edit_cache.dir
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/rtl/CMakeFiles/rebuild_cache.dir
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/dv/CMakeFiles/tests.dir
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/dv/CMakeFiles/test.dir
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/dv/CMakeFiles/edit_cache.dir
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/dv/CMakeFiles/rebuild_cache.dir

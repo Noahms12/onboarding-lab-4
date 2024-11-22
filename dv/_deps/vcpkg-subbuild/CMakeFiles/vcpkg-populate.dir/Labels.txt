@@ -1,0 +1,14 @@
+# Target labels
+ vcpkg-populate
+# Source files and their labels
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate.rule
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-subbuild/CMakeFiles/vcpkg-populate-complete.rule
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-build.rule
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-configure.rule
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-download.rule
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-install.rule
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-mkdir.rule
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-patch.rule
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-test.rule
+/Users/noahmays-smith/VSCODE/onboarding-lab-4/dv/_deps/vcpkg-subbuild/vcpkg-populate-prefix/src/vcpkg-populate-stamp/vcpkg-populate-update.rule
